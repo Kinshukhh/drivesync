@@ -31,7 +31,7 @@ class GoogleAuth:
         if creds:
             return creds
 
-        DROPBOX_LINK = "https://www.dropbox.com/scl/fi/sr0na0y0gjs582m19rsao/DriveSync_credentials.json?rlkey=zlu35sho0824udodi3o1r3y6n&st=pm0qc0m6&dl=0"
+        DROPBOX_LINK = "www.example.com/download/credentials.json"
 
         if "dl=0" in DROPBOX_LINK:
             DROPBOX_LINK = DROPBOX_LINK.replace("dl=0", "dl=1")
